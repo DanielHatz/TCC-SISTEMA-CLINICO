@@ -1,0 +1,87 @@
+.titulo {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 3em auto;
+  font-size: 24px;
+  color: rgb(80, 196, 239);
+  border-radius: 15px;
+  border-color: rgb(80, 196, 239);
+}
+
+
+.colunas-areas{ 
+  margin: 3em auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+
+.img-profissional {
+  width: 100%;
+}
+
+.nome-profissional {
+  color: rgb(80, 196, 239);
+}
+
+
+.login-validacao{
+  width: 50%;
+  margin: 3em auto;
+}
+.id-usuario, .senha-usuario{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.botao-entrar, .botao-entrar:active {
+  background-color: rgba(80, 197, 239, 0.74);
+  margin-top: 1em;
+  margin-left:65%
+
+}
+
+@media (max-width: 376px) {
+  .area-profissional {
+    width: 33%;
+  }
+  .nome-profissional{
+    font-size: 12px;
+    text-align: center;
+  }
+  .colunas-areas {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 570px) {
+  .area-coluna-profissionais {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .botao-entrar, .botao-entrar:active  {
+      margin-left: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .area-coluna-profissionais, .container, .container-md, .container-sm {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    max-width: 70% !important;
+    }
+
+  }
